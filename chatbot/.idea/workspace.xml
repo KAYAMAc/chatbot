@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf011b3e-fce7-4539-be6e-b327441d17df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/chatbot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hmm_cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hmm_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/demo.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/demo.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/prob_emit.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/prob_start.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/prob_trans.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/trans_dict.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/word_dict.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r_hmm_data.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/answer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seq2seq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subtitle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testpkl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textpro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python36.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word_seg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word_token.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hmm_cut.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1520">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hmm_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1216">
+              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seq2seq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+              <folding>
+                <element signature="e#32#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo3/demo/spiders/spiderdemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="97" column="34" lean-forward="true" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word_token.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpkl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textpro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testpkl.py" />
+        <option value="$PROJECT_DIR$/word_seg.py" />
+        <option value="$PROJECT_DIR$/word_token.py" />
+        <option value="$PROJECT_DIR$/hmm_train.py" />
+        <option value="$PROJECT_DIR$/hmm_cut.py" />
+        <option value="C:/Python36/Lib/site-packages/pymouse/__init__.py" />
+        <option value="$PROJECT_DIR$/seq2seq.py" />
+        <option value="$PROJECT_DIR$/subtitle_spider.py" />
+        <option value="$PROJECT_DIR$/spider_test.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/spiders/spider_test.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/subtitle_spider.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/pipelines.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/items.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/pipelines.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/spiders/example.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/settings.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/items.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/settings.py" />
+        <option value="$PROJECT_DIR$/subtitle_crawler/spiders/subtitle_spider.py" />
+        <option value="$PROJECT_DIR$/textpro.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="140" />
+    <option name="y" value="45" />
+    <option name="width" value="1195" />
+    <option name="height" value="950" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kayama\PycharmProjects\chatbot\subtitle_crawler\spiders" />
+      <recent name="C:\Users\Kayama\PycharmProjects\chatbot\subtitle_crawler" />
+      <recent name="C:\Users\Kayama\PycharmProjects\chatbot" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.spider_test">
+    <configuration name="hmm_cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hmm_cut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/subtitle_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subtitle_crawler/pipelines.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kayama\PycharmProjects\chatbot\subtitle_crawler\spiders\spider_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subtitle_spider (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/subtitle_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subtitle_crawler/spiders/subtitle_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subtitle_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kayama\PycharmProjects\chatbot\subtitle_crawler\spiders\subtitle_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="textpro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textpro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.spider_test" />
+        <item itemvalue="Python.pipelines" />
+        <item itemvalue="Python.subtitle_spider" />
+        <item itemvalue="Python.textpro" />
+        <item itemvalue="Python.hmm_cut" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf011b3e-fce7-4539-be6e-b327441d17df" name="Default Changelist" comment="" />
+      <created>1545304274283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545304274283</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11624835" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497358" weight="0.19619326" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867898" weight="0.39970717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50264204" side_tool="true" weight="0.95607615" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14729194" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497358" weight="0.19619326" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867898" weight="0.39970717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50264204" side_tool="true" weight="0.95607615" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Python36/Lib/test/test_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="957" column="16" selection-start-line="957" selection-start-column="16" selection-end-line="957" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/win32/gui.cp36-win_amd64.pyd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questions.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/pymouse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1184660488/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71664">
+          <caret line="378" column="50" selection-start-line="378" selection-start-column="50" selection-end-line="378" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/tensorflow/contrib/legacy_seq2seq/python/ops/seq2seq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3117">
+          <caret line="613" selection-start-line="613" selection-end-line="613" />
+          <folding>
+            <element signature="e#2693#2731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/spider_test.py" />
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/settings.py" />
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/spiders/example.py" />
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/items.py" />
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/Demo/Demo/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/spiders/subtitle_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="334" column="40" selection-start-line="334" selection-start-column="40" selection-end-line="334" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hmm_cut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hmm_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpkl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textpro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subtitle_crawler/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+          <folding>
+            <element signature="e#32#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3/demo/spiders/spiderdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="97" column="34" lean-forward="true" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
